@@ -1,6 +1,9 @@
 {
-    "name": "calvinmuller/takealot-api",
-    "require": {
-        "guzzlehttp/guzzle": "^6.3"
-    }
+  "name": "calvinmuller/takealot-api",
+  "psr-4": {
+    "TakealotApi\\": "src/TakealotApi/"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  }
 }

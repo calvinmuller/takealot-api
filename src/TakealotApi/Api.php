@@ -7,7 +7,7 @@ namespace TakealotApi;
  */
 use GuzzleHttp\Client;
 
-class TakealotApi extends Client
+class Api extends Client
 {
     /**
      * The last API response executed.
