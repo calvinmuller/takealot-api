@@ -17,7 +17,8 @@ class Api extends Client
     public function __construct(array $config = [])
     {
         $config = [
-            'base_uri' => getenv('TAKEALOT_API_URL', 'https://api.takealot.com/rest/v-1-5-2/'),
+            'base_uri' => getenv('TAKEALOT_API_URL',
+                'https://api.takealot.com/rest/v-1-5-2/'),
         ];
 
         parent::__construct($config);

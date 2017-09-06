@@ -1,7 +1,9 @@
 {
   "name": "calvinmuller/takealot-api",
-  "psr-4": {
-    "TakealotApi\\": "src/TakealotApi/"
+  "autoload": {
+    "psr-4": {
+      "TakealotApi\\": "src/TakealotApi/"
+    }
   },
   "require": {
     "guzzlehttp/guzzle": "^6.3"
