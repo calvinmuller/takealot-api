@@ -25,7 +25,7 @@ class TakealotTests extends \PHPUnit\Framework\TestCase
      */
     public function testShouldGetOrders()
     {
-        $response = $this->api->login('calvin+takealot@istreet.co.za', 'admin123');
+        $response = $this->api->login('calvin+takealot@test.co.za', 'admin123');
         $json = json_decode($response->getBody()->getContents());
 
         $this->assertTrue(true);
