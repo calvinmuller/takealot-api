@@ -136,7 +136,6 @@ class Api extends Client
         ];
 
         return $this->get("customer/${customerId}/orders", [
-            'debug' => true,
             'cookies' => $this->jar,
             'params' => $params,
             'headers' => [
